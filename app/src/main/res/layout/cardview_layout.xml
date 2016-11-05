@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    app:cardCornerRadius="0dp"
+    app:cardUseCompatPadding="false"
+    cardview:cardElevation="3dp"
+    xmlns:cardview="http://schemas.android.com/tools"
+    android:id="@+id/item_cardview"
+
+    android:layout_margin="5dp"
+
+    >
+
+    <LinearLayout
+        android:id="@+id/main_target"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:background="?android:selectableItemBackground"
+        android:orientation="vertical">
+
+        <com.android.volley.toolbox.NetworkImageView
+            android:id="@+id/n1"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:layout_marginBottom="8dp"
+            android:background="#1000"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:padding="5dp"
+            android:id="@+id/t1"
+            style="?android:textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:ellipsize="end"
+            android:text="hero is mer and im not terrorist yes you got right"
+            android:fontFamily="sans-serif-condensed"
+            android:textColor="#000"
+            android:maxLines="2" />
+        <TextView
+             android:id="@+id/youtubeid"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+
+            android:ellipsize="end"
+            android:text=""
+            android:fontFamily="sans-serif-condensed"
+            android:textColor="#000"
+            android:maxLines="2" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+            <ImageView
+                android:id="@+id/view"
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:src="@drawable/view"/>
+            <TextView
+                android:id="@+id/t2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="12343443"
+                android:layout_toRightOf="@+id/view"
+                android:layout_marginLeft="10dp"
+                android:layout_centerInParent="true"
+                />
+            <TextView
+                android:id="@+id/t3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Likes"
+
+                android:layout_marginLeft="10dp"
+                android:layout_centerInParent="true"
+                android:textColor="#000"
+                />
+            <TextView
+                android:id="@+id/t4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1233245"
+                android:layout_toRightOf="@+id/t3"
+                android:layout_marginLeft="10dp"
+                android:layout_centerInParent="true"
+                android:textColor="#000"
+                />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

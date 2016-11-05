@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1046051432931",
+    "project_id": "feed-2c6f1"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1046051432931:android:a1a98f45e9a1635a",
+        "android_client_info": {
+          "package_name": "com.example.vasuchand.feedgen"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1046051432931-ad4ku5554vqv4ikujcvh13gkkuem6ibv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.vasuchand.feedgen",
+            "certificate_hash": "AC3A64AD5055D7E9725FE5536D10F94BEB8E0DC9"
+          }
+        },
+        {
+          "client_id": "1046051432931-4b3b8kv5dtjdnmij490ki824r17abcal.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9P6HoU0dqkVX_0DYUOmryotIypGyyngY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

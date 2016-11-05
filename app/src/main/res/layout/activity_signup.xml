@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_signup"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.vasuchand.feedgen.Login.Signup">
+
+    <android.support.v7.widget.CardView
+
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:elevation="2dp"
+        android:layout_marginTop="40dp"
+        card_view:cardCornerRadius="2dp"
+        app:cardPreventCornerOverlap="false"
+        app:cardUseCompatPadding="true"
+        android:gravity="center"
+        >
+        <TextView
+            android:padding="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sign In "
+            android:textSize="24sp"
+            android:textColor="#000"
+            android:gravity="center"/>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="2dp"
+        android:layout_marginTop="40dp"
+        card_view:cardCornerRadius="2dp"
+        app:cardPreventCornerOverlap="false"
+        app:cardUseCompatPadding="true"
+        android:gravity="center"
+        >
+        <TextView
+            android:padding="18dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Google"
+            android:textSize="28sp"
+            android:textColor="#000"
+            android:layout_marginLeft="40dp"
+            />
+        <ImageView
+            android:id="@+id/goog"
+            android:layout_marginTop="10dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/google"
+            android:layout_marginRight="20dp"
+            android:layout_gravity="right"/>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="2dp"
+        android:layout_marginTop="10dp"
+        card_view:cardCornerRadius="2dp"
+        app:cardPreventCornerOverlap="false"
+        app:cardUseCompatPadding="true"
+        android:gravity="center"
+        >
+        <TextView
+            android:padding="18dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="FaceBook"
+            android:textSize="28sp"
+            android:textColor="#000"
+            android:layout_marginLeft="40dp"
+            />
+        <ImageView
+            android:id="@+id/face"
+            android:layout_marginTop="10dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/facebook"
+            android:layout_marginRight="20dp"
+            android:layout_gravity="right"/>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

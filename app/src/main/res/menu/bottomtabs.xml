@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/bb_menu_recents"
+
+        android:title="Recents" />
+    <item
+        android:id="@+id/bb_menu_favorites"
+
+        android:title="Favorites" />
+    <item
+        android:id="@+id/bb_menu_nearby"
+
+        android:title="Nearby" />
+    <item
+        android:id="@+id/bb_menu_friends"
+
+        android:title="Friends" />
+    <item
+        android:id="@+id/bb_menu_food"
+
+        android:title="Food" />
+</menu>

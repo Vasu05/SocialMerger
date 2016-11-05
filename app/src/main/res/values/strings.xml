@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">FeedGen</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">Hello Feed!</string>
+    <string name="slide_1_desc">The easiest way to get Feed from your favourite interest!</string>
+
+    <string name="slide_2_title">National affairs</string>
+    <string name="slide_2_desc">Get updated to any kind of news!</string>
+
+    <string name="slide_3_title">Simple and Real Time</string>
+    <string name="slide_3_desc">The best way to read and customize it according to your need</string>
+
+    <string name="slide_4_title">Share with your friends!</string>
+    <string name="slide_4_desc">Connect your friend using facebook , get them know what are you reading1</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+    <string name="server_client_id">1046051432931-4b3b8kv5dtjdnmij490ki824r17abcal.apps.googleusercontent.com</string>
+    <string name="error">error</string>
+    <string name="error_format">bekar</string>
+    <string name="not_signed_in">no sign in</string>
+    <string name="connection_to_google_play_failed">Connection problem</string>
+
+</resources>
